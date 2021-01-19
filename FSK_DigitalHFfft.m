@@ -22,7 +22,7 @@ receivedSignal      = [SymbolOne,SymbolZero,SymbolZero,SymbolOne,...
 tS                  = (0:length(SymbolZero)-1)*1/Fs;    % t symbol
 tR                  = (0:length(receivedSignal)-1)*1/Fs;% t received frame
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Nfft                = 200;
+Nfft                = 400;
 dF                  = Fs/Nfft;
 fVectors            = (0:(Nfft-1))*dF;
 tVectors            = (0:(Nfft-1))*1/Fs;
